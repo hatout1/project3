@@ -16,17 +16,9 @@
     "install": "cd client && npm install",
     "build": "cd client/ && npm install && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SarahJoline/Larryslist.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SarahJoline/Larryslist/issues"
-  },
-  "homepage": "https://github.com/SarahJoline/Larryslist#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "bcrypt": "^4.0.1",
