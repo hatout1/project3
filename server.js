@@ -6,14 +6,6 @@ const PORT = process.env.PORT || 5000;
 app.use(cookieParser());
 app.use(express.json());
 
-// mongoose.connect(
-//   "mongodb://localhost/mernauth",
-//   { useNewUrlParser: true, useUnifiedTopology: true },
-//   () => {
-//     console.log("successfully connected to database");
-//   }
-// );
-
 const MONGO_URI = process.env.MONGODB_URI || "mongodb://localhost/project_test";
 
 mongoose.connect(
