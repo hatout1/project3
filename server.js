@@ -14,7 +14,7 @@ app.use(express.json());
 //   }
 // );
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost/project_test";
+const MONGO_URI = process.env.MONGODB_URI || "mongodb://localhost/project_test";
 
 mongoose.connect(
   MONGO_URI,
