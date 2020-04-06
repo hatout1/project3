@@ -16,6 +16,7 @@
     "install": "cd client && npm install",
     "build": "cd client/ && npm install && npm run build"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
